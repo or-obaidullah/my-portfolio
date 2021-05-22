@@ -1,0 +1,32 @@
+.apply-code span{
+    background-color: #676d76;
+    padding: 3px 10px;
+    margin: 5px 5px 0 0;
+    font-size: 13px;
+    border-radius: 3px;
+    display: inline-block;
+}
+.works-icon, .works-icon li{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.works-icon{
+    display: flex;
+}
+.works-icon li a{
+    color: #fff;  
+}
+.works-card{
+    transition: all 0.3s;
+}
+.works-card:hover .works-icon li a{
+    color: #72b626;
+}
+.works-card:hover .apply-code span{
+    background-color: #5b77a3;
+}
+.works-card:hover{
+    transform: translateY(-30px);
+}
+

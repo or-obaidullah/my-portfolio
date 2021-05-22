@@ -1,0 +1,23 @@
+.card-image{
+    border-bottom: 5px solid #72b626;
+    overflow: hidden;
+}
+.card{
+    background-color: #172a45;
+    color: #fff;
+}
+.card-title{
+    font-weight: 600;
+}
+.card-img-top{
+    height: 200px;
+}
+.card-img-top, .card-title{
+    transition: .3s;
+}
+.card:hover .card-image img{
+    transform: scale(1.2);
+}
+.card:hover .card-title{
+    color: #72b626;
+}

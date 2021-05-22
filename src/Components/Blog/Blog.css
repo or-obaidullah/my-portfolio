@@ -1,0 +1,55 @@
+.title-section{
+    text-align: center;
+    position: relative;
+    padding: 80px 0;
+}
+.title-section h1{
+    font-size: 56px;
+    font-weight: 900;
+    color: #fff;
+    text-transform: uppercase;
+    margin: 0;
+    
+}
+.title-section .blog{
+    color: #72b626;
+}
+.title-section .posts{
+    font-size: 110px;
+    left: 0;
+    letter-spacing: 10px;
+    line-height: 0.7;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    text-transform: uppercase;
+    font-weight: 800;
+    transform: translateY(-50%);
+    color: rgba(255, 255, 255, 0.07);
+}
+
+/* Responsive */
+@media (min-width: 1150px) and (max-width:1300px){
+    .container{
+        max-width: 1040px;
+    }
+}
+@media (min-width: 1024px) and (max-width:1150px){
+    .container{
+        max-width: 940px;
+    }
+}
+@media (min-width: 992px) and (max-width:1024px){
+    .container{
+        max-width: 840px;
+    }
+}
+
+@media (max-width:360px){
+    .title-section .posts{
+        font-size: 80px;
+    }
+    .title-section h1 {
+        font-size: 45px;
+    }
+}
