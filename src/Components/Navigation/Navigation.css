@@ -72,11 +72,18 @@
 
 .menu-bar{
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-between;
     align-items: center;
     background: #172a45;
     height: 70px;
     border-bottom: 1px solid #ffffff26;
+}
+.menu-bar h3{
+    color: #72b626;
+    margin-left: 63px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 0;
 }
 .menubars{
     font-size: 30px;

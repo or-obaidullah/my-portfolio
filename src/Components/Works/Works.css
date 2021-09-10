@@ -1,32 +1,105 @@
+
+.works-card{
+    transition: all 0.3s;
+    border-radius: 20px;
+    cursor:pointer;
+}
+
+.works-card .card-img-part{
+    overflow: hidden;
+    border-radius: 10px;
+}
+small{
+    color: #72b626;
+    font-weight: 600;
+}
+.works-card:hover h4{
+    color: #72b626;  
+}
+.works-card:hover img{
+    transform: scale(1.1);
+}
+.works-card:hover small{
+    color:#fff;
+}
+
+.git-icon{
+    color: #fff;
+    font-size: 18px;
+}
+.works-card:hover .git-icon{
+    color: #72b626;
+}
+.card-icon{
+    position: relative;
+    top: 30px;
+    left: -15px;
+    opacity: 0;
+    transition: 0.3s;
+}
+
+.works-card:hover .card-icon{
+    top: 0;
+    left: 5px;
+    opacity: 1;
+}
+.cardModal h5,p{
+    color: #fff;
+}
+.cardModal h1{
+    color: #72b626;
+    font-weight: 700;
+    font-size: 35px;
+}
+.cardModal img{
+    border-radius: 10px;
+}
+.modalCloseBtn{
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    right: 5px;
+    top: 5px;
+}
+.modal-btn{
+    background: linear-gradient(to right,#57cc60,#20630f);
+    padding: 8px 15px;
+    color: #fff;
+    text-transform: uppercase;
+    border-radius: 10px;
+    margin-top: 20px;
+    font-weight: 700;
+    transition: .3s;
+    display: inline-block;
+    cursor: pointer;
+    margin-right: 20px;
+}
+.modal-btn:hover{
+    text-decoration: none;
+    color: #0a192f;
+    background: linear-gradient(to right,#20630f, #57cc60);
+}
+.modal-btn span{
+    font-size: 22px;
+}
+.ReactModal__Overlay{
+    overflow: scroll;
+}
 .apply-code span{
-    background-color: #676d76;
+    background-color: #5b77a3;
     padding: 3px 10px;
     margin: 5px 5px 0 0;
     font-size: 13px;
     border-radius: 3px;
     display: inline-block;
+    color: #fff;
 }
-.works-icon, .works-icon li{
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
+@media(max-width:992px){
+    .ReactModal__Content{
+        top: 435px !important;
+    }
 }
-.works-icon{
-    display: flex;
-}
-.works-icon li a{
-    color: #fff;  
-}
-.works-card{
-    transition: all 0.3s;
-}
-.works-card:hover .works-icon li a{
-    color: #72b626;
-}
-.works-card:hover .apply-code span{
-    background-color: #5b77a3;
-}
-.works-card:hover{
-    transform: translateY(-30px);
-}
-

@@ -44,12 +44,27 @@
         max-width: 840px;
     }
 }
-
-@media (max-width:360px){
+@media (max-width:768px){
     .title-section .posts{
-        font-size: 80px;
+        font-size: 86px;
     }
     .title-section h1 {
-        font-size: 45px;
+        font-size: 50px;
+    }
+}
+@media (max-width:576px){
+    .title-section .posts{
+        font-size: 77px;
+    }
+    .title-section h1 {
+        font-size: 47px;
+    }
+}
+@media (max-width:480px){
+    .title-section .posts{
+        font-size: 52px;
+    }
+    .title-section h1 {
+        font-size: 35px;
     }
 }

@@ -10,7 +10,7 @@ const About = () => {
                 <h1>About <span className='blog'>Me</span></h1>
                 <span className='posts'>Resume</span>
             </div>
-            <div className="row my-auto">
+            <div className="row my-auto px-4 px-sm-0">
                 <div className="col-12 col-lg-6">
                     <h3 className='aboutHeading'>PERSONAL INFOS</h3>
                     <div className="row personInfo pb-4">
@@ -44,17 +44,20 @@ const About = () => {
                         <span>React js</span>
                         <span>Node js</span>
                         <span>MongoDB</span>
-                        <span>API</span>
+                        <span>REST API</span>
+                        <span>Context API</span>
                         <span>Express js</span>
                         <span>Firebase</span>
-                        <span>Bootstrap4</span>
+                        <span>Redux</span>
+                        <span>Bootstrap5</span>
+                        <span>TailwindCss</span>
                         <span>Material UI</span>
+                        <span>WebPack</span>
                         <span>NPM</span>
                         <span>JSON</span>
                         <span>HTML</span>
                         <span>CSS</span>
                         <span>SCSS</span>
-                        <span>Material UI</span>
                         <span>Github</span>
                         <span>MySQL</span>
                         <span>C Programming</span>

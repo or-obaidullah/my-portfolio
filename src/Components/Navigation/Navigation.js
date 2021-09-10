@@ -1,10 +1,9 @@
 import React, { useState } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import {faTimes,faBars,faHome, faUser, faBriefcase, faEnvelopeOpen, faComment} from '@fortawesome/free-solid-svg-icons';
+import {faTimes,faBars} from '@fortawesome/free-solid-svg-icons';
 import './Navigation.css';
 import {Link, NavLink } from 'react-router-dom';
 import {NavData} from './NavData';
-import {IconContext} from 'react-icons';
 
 const Navigation = () => {
     const [menuBar, setMenuBar] =useState(false);
@@ -32,6 +31,7 @@ const Navigation = () => {
 
         <div className='mobile-menu'>
             <div className='menu-bar'>
+                <h3>Obaidur Rahman</h3>
                 <Link to='#' className='menubars'>
                     <FontAwesomeIcon icon={faBars} onClick={showMenuBar}/>
                 </Link>
